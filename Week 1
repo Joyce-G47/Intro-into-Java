@@ -1,0 +1,120 @@
+Java is a widely used object-oriented programming language and software platform that runs on billions of devices, 
+including notebook computers, mobile devices, gaming consoles, medical devices and many others.
+The rules and syntax of Java are based on the C and C++ languages.
+
+ Advantages of java
+Platform Independence- Java programs can be compiled on a single platform and executed across any platform featuring the JVM, which constitutes most modern systems.
+
+Object-Oriented Programming- Java’s OOP features make it an ideal language for modular design and reusable code.
+
+Reliability- Java features a robust syntax with features such as strong tying (requiring data types to be declared at creation), built-in exception handling to handle errors and code issues before they become a problem, and automatic memory management – also known as garbage collection.
+
+Multithreading and Concurrency
+Java has excellent built-in support for multithreading and concurrency, making it much easier for coders looking to develop applications that can perform tasks concurrently.
+
+Disadvantages
+
+Slower Execution Speed- ava programs (on average) run a bit slower than its natively compiled “cousin” like C and C++.
+
+Syntax Verbosity
+Java syntax is known to be verbose, meaning that applications written in Java tend to require more lines of code than options like Python or Kotlin. This syntax verbosity and boilerplate code can lead to longer development time and greater maintenance effort, so always keep this in mind when considering which language to use for a project.
+
+Memory Usage
+While Java is great for developing mobile apps and large-scale enterprise software, it is important to keep in mind that Java tends to consume more memory than languages like C and C++.
+
+
+Lack of Multiple Inheritance
+While Java does support single inheritance through its OOP features, classes in Java can only inherit from one superclass. This is good and bad; on one hand, it helps developers avoid some of the complexities often associated with multiple inheritance. On the other, it can limit the design patterns programmers can take advantage of to tackle common problems.
+Daily Notes - Java Components
+ Java Virtual Machine- This platform-independence of JVM allows us to create Java programs on one machine and execute them on another machine (WORA – Write – Once – Run – Anywhere).
+
+Java Development Kit (JDK) -
+This is the core component of any Java environment. JDK contains JRE (Java Runtime Environment) along with Java compiler, Java debugger, and other core classes. JDK is used for Java development as it provides the entire executable and binaries as well as tools required to compile, debug a Java program.
+
+Java Runtime Environment (JRE) -
+JRE, as the name suggests, is the runtime environment that is required to execute Java programs and applications. JRE consists of Java Virtual Machine (JVM) and binaries and other classes to successfully execute Java programs.
+Daily Notes - Main Java features
+ Platform Independence- Java programs can be compiled on a single platform and executed across any platform featuring the JVM, which constitutes most modern systems.
+
+Object-Oriented Programming- Java’s OOP features make it an ideal language for modular design and reusable code.
+
+Simple - A simple programming language is such that it is easy to learn and understand. Java with its straightforward and easy to comprehend codes is one of the simplest programming languages to learn and implement.
+
+Reliability- Java features a robust syntax with features such as strong tying (requiring data types to be declared at creation), built-in exception handling to handle errors and code issues before they become a problem, and automatic memory management – also known as garbage collection.
+
+Secure - Languages like C and C++ used pointers, which allows access to memory location. This is a security risk, as pointers can lead to unauthorized memory access. Java also used OOPs concepts like encapsulation, abstraction, inheritance, which increases security and prevents unauthorized access to users.
+
+Multithreading and Concurrency
+Java has excellent built-in support for multithreading and concurrency, making it much easier for coders looking to develop applications that can perform tasks concurrently.
+Daily Notes - Setting up the environment
+ done
+Daily Notes - Activity 2
+ Platform Independence- Java programs can be compiled on a single platform and executed across any platform featuring the JVM, which constitutes most modern systems.
+
+Object-Oriented Programming- Java’s OOP features make it an ideal language for modular design and reusable code.
+
+Simple - A simple programming language is such that it is easy to learn and understand. Java with its straightforward and easy to comprehend codes is one of the simplest programming languages to learn and implement.
+
+Reliability- Java features a robust syntax with features such as strong tying (requiring data types to be declared at creation), built-in exception handling to handle errors and code issues before they become a problem, and automatic memory management – also known as garbage collection.
+
+Secure - Languages like C and C++ used pointers, which allows access to memory location. This is a security risk, as pointers can lead to unauthorized memory access. Java also used OOPs concepts like encapsulation, abstraction, inheritance, which increases security and prevents unauthorized access to users.
+
+Multithreading and Concurrency
+Java has excellent built-in support for multithreading and concurrency, making it much easier for coders looking to develop applications that can perform tasks concurrently.
+
+Typical Structure of a Java program
+ Package declaration- The package declaration is optional but is commonly used to organize classes into namespaces or packages.
+
+Import statements- Import statements are used to bring in classes or entire packages into the current Java source file, allowing you to use their functionalities.
+
+Comments- Comments are used to add human-readable explanations and documentation to the code. They are ignored by the compiler.
+
+Class definition- The class definition is where you define the main structure of your program. It includes fields, methods, and other members.
+
+Attributes- Attributes, also known as fields or variables, represent the state or data of the class. They are declared within the class but outside of any method.
+
+Methods/Behaviours - Methods define the behavior of the class. They contain executable code and can perform actions, manipulate data, and return values.
+Daily Notes - Activity 7
+ Elements present in the "HelloWorld" Java program:
+
+Package Declaration:
+
+
+package com.cititraining.edu.firstjava;
+Import Statements:
+
+import System.io.*;
+It's worth noting that the import statement you provided (import System.io.*;) has a small typo. It should be import java.io.*; to import the standard input/output classes in Java.
+
+Class Definition:
+
+
+public class HelloWorld {
+// Class body
+}
+Comments:
+
+
+/* This is my first java program.
+* This will print 'Hello World' as the output
+*/
+// This is a single-line comment
+Main Method:
+
+
+public static void main(String[] args) {
+printHelloWorld();
+}
+Method (printHelloWorld):
+
+
+public void printHelloWorld() {
+System.out.println("Hello World");
+}
+Elements missing from the "HelloWorld" Java program:
+
+Corrected Import Statement:
+The import statement should be corrected to:
+
+
+import java.io.*;
