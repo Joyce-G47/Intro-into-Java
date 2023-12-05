@@ -1,0 +1,76 @@
+ A version control system is a software that tracks changes to a file or set of files over time so that you can recall specific versions later. It also allows you to work together with other programmers or developers. The version control system is a collection of software tools that help a team to manage changes in a source code. It uses a special kind of database to keep track of every modification to the code.
+Daily Notes - What is Git?
+ Git is an open-source distributed version control system. It is designed to handle minor to major projects with high speed and efficiency. It is developed to co-ordinate the work among the developers. The version control allows us to track and work together with our team members at the same workspace.
+Daily Notes - Activity 1
+ Git is a widely used and robust version control system that offers numerous features contributing to its popularity. Here are nine prominent features of Git:
+
+Distributed Version Control:
+
+Description: Git is a distributed version control system, meaning that every user has a complete copy of the entire repository, including its history. This allows for offline work and provides redundancy and resilience.
+Branching and Merging:
+
+Description: Git excels in branching and merging operations. Creating branches is lightweight, allowing developers to work on isolated features or bug fixes. Merging changes from one branch to another is efficient and can be performed easily.
+Fast Performance:
+
+Description: Git is designed to be fast, even with large codebases. Operations like committing changes, branching, and merging are optimized for speed, providing a responsive experience for developers.
+Atomic Commits:
+
+Description: Git encourages the practice of atomic commits, where each commit represents a single, logical change. This makes it easier to understand the history, revert changes if needed, and collaborate effectively.
+Staging Area (Index):
+
+Description: The staging area, also known as the index, allows developers to selectively choose which changes to include in the next commit. This provides flexibility and control over the commit process.
+Integrity and Checksums:
+
+Description: Git uses cryptographic hashes (SHA-1) to identify and track changes. This ensures the integrity of the data, as any change in the repository content results in a new hash. It makes it extremely difficult for unnoticed changes to occur.
+Support for Non-linear Development:
+
+Description: Git supports non-linear development workflows. Developers can create branches and merge changes in various ways, accommodating different collaboration models such as feature branching, release branching, and more.
+Ease of Collaboration:
+
+Description: Git facilitates collaboration by allowing multiple developers to work on the same project concurrently. It includes features like pull requests (in platforms like GitHub and GitLab) that make code review and collaboration seamless.
+Rich Ecosystem and Integration:
+
+Description: Git has a vibrant and extensive ecosystem. It integrates well with various tools, including continuous integration systems, code review tools, and project management platforms. This flexibility contributes to its widespread adoption and usability in diverse development environments.
+Daily Notes - Benefits of using Git
+ Saves Time
+
+Git is lightning fast technology. Each command takes only a few seconds to execute so we can save a lot of time as compared to login to a GitHub account and find out its features.
+
+Offline Working
+
+One of the most important benefits of Git is that it supports offline working. If we are facing internet connectivity issues, it will not affect our work. In Git, we can do almost everything locally. Comparatively, other CVS like SVN is limited and prefer the connection with the central repository.
+
+Undo Mistakes
+
+One additional benefit of Git is we can Undo mistakes. Sometimes the undo can be a savior option for us. Git provides the undo option for almost everything.
+
+Track the Changes
+
+Git facilitates with some exciting features such as Diff, Log, and Status, which allows us to track changes so we can check the status, compare our files or branches.
+Instructions for configuration
+ The git config command can accept arguments to specify the configuration level. The following configuration levels are available in the Git config.
+
+Local Configuration (Repository-specific):
+
+Command: git config --local
+Scope: Applies to a specific Git repository.
+Location: Stored in the repository's .git/config file.
+Usage: Configuration at this level is specific to the current repository. Settings here override global and system configurations for this particular repository.
+
+Global Configuration (User-specific):
+
+Command: git config --global
+Scope: Applies to the currently logged-in user across all Git repositories.
+Location: Stored in the user's home directory in the .gitconfig file.
+Usage: Configuration at this level is useful for settings that should be common across all your Git repositories.
+
+System Configuration (System-wide):
+
+Command: git config --system
+Scope: Applies system-wide for all users on the machine.
+Location: Stored in the system's Git configuration file (usually found in /etc/gitconfig or /usr/local/etc/gitconfig).
+Usage: Configuration at this level is typically reserved for settings that should be consistent for all users on a machine.
+My Views on the Day
+ I am familiar with Git but using cmd, I just need some time to refresh and also use bash just to learn the difference.
+Daily Notes - Day 1 Reflections
+ I am familiar with Git but using cmd, I just need some time to refresh and also use bash just to learn the difference.
